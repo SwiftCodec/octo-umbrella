@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 LoL ( -0- )
+=======
+01.03.19.1 - added JS, CSS and HTML files
+>>>>>>> c5097ec48050283210743757ae01397d61f82d33
 01.03.19 - Update
 26.11.18 - New project
