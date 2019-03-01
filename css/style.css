@@ -1,0 +1,69 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+input[type=number] {
+  width: 96px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: Tahoma;
+  font-size: .850em;
+  background-color: #e7e7e7;
+  background-image: url('https://static.webshopapp.com/shops/020277/files/056032986/cole-son-jaspe-106-3038-wallpaper.jpg');
+}
+.header {
+  padding: 10px;
+  display: inline-block;
+}
+.header_logo {
+  display: block; 
+  float: left;
+}
+.header_title {
+  font-family: Impact;
+  font-size: 2.9em;
+  display: block;
+  float: left;
+  padding: 10px 10px;
+}
+.header_menu {
+  display: block;
+  float: right;
+}
+.page_inner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  padding: 0px 10px;
+}
+.main_container {
+  padding: 10px;
+  background-color: #e7e7e7;
+}
+.contact_form {
+  padding: 10px;
+}
+.form1_title {
+  font-family: Impact;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+.formBlockSize {
+
+}
+.formOutputVol {
+  display: inline-block;  
+}
+.formLabel {
+  
+}
+.block_submit {
+  padding-top: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+}
