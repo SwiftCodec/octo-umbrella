@@ -14,25 +14,59 @@ input[type=number] {
   background-color: #e7e7e7;
   background-image: url('https://static.webshopapp.com/shops/020277/files/056032986/cole-son-jaspe-106-3038-wallpaper.jpg');
 }
+
 .header {
-  padding: 10px;
-  display: inline-block;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;;
+  height: 100%;
 }
-.header_logo {
-  display: block; 
+
+p.logo-text{
+  margin: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3em;
+}
+
+p.logo-text::before{
+  content: "";
+  display: block;
   float: left;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  background-image: url("http://www.iconninja.com/files/565/731/587/user-interface-command-line-icon.png");
+  background-size: cover;
 }
+
 .header_title {
   font-family: Impact;
   font-size: 2.9em;
-  display: block;
-  float: left;
   padding: 10px 10px;
 }
-.header_menu {
-  display: block;
-  float: right;
+
+ul.header__menu {
+  list-style-type: none;
+  display: flex;
 }
+
+.header__menu__li {
+  padding-right: 20px; 
+}
+
+.header__menu__li:last-child {
+  padding-right: 0; 
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+
 .page_inner {
   margin: 0 auto;
   width: 100%;
