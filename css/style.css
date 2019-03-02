@@ -51,7 +51,8 @@ ul.header__menu {
 }
 
 .header__menu__li {
-  padding-right: 20px; 
+  padding-right: 20px;
+  margin: 10px 0;
 }
 
 .header__menu__li:last-child {
@@ -59,13 +60,13 @@ ul.header__menu {
 }
 
 a {
+  margin: 10px 0;
   color: #000;
   text-decoration: none;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 2em;
   text-transform: uppercase;
 }
-
 
 .page_inner {
   margin: 0 auto;
