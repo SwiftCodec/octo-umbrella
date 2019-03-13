@@ -45,17 +45,17 @@ p.logo-text::before{
   padding: 10px 10px;
 }
 
-ul.header__menu {
+ul.header_menu {
   list-style-type: none;
   display: flex;
 }
 
-.header__menu__li {
+.header_menu_li {
   padding-right: 20px;
   margin: 10px 0;
 }
 
-.header__menu__li:last-child {
+.header_menu_li:last-child {
   padding-right: 0; 
 }
 
