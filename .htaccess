@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# This will redirect the processing of all pages to index.php, which is what we need. Remember about Front Controller?
+# Это перенаправит обработку всех страниц на index.php, что нам и нужно. Помните о Front Controller?
+RewriteRule .* index.php [L]
